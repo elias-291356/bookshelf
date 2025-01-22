@@ -1,0 +1,11 @@
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  line-height: 0;
+
+}
+
+.burger-btn-icon {
+  stroke: var(--second-black-color)
+}
