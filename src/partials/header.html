@@ -1,5 +1,35 @@
-<header>
-  <a href="#">
-    Hello Header
-  </a>
+<header class="page-header" id="home" aria-label="page header">
+  <div class="container page-header-container">
+    <nav class="navigation">
+      <a class="logo link" href="#">
+        <svg class="logo-icon" width="24" height="24" aria-label="Bokkshelf logo">
+          <use href="/src/images/icons/sprite.svg#icon-logo"></use>
+        </svg>
+        <span class="logo-text">Bookshelf</span>
+      </a>
+      <ul class="menu list">
+        <li class="menu-item">
+          <a class="menu-link link" href="#home">Home</a>
+        </li>
+        <li class="menu-item item-shop">
+          <button class="header-btn-shop-list" href="#shopping-list" type="button">Shopping
+            list</button>
+
+          <svg class="icon-shop-list" width="24" height="24" aria-label="shopping list">
+            <use href="/src/images/icons/sprite.svg#icon-burger"></use>
+          </svg>
+        </li>
+
+      </ul>
+    </nav>
+    <div class="header-buttons-wrap">
+
+      <button class="switcher" type="button"></button>
+      <button class="burger-btn" type="button">
+        <svg class="burger-btn-icon">
+          <use href="/src/images/icons/sprite.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
 </header>

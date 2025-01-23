@@ -1,11 +1,117 @@
-.burger-btn {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  line-height: 0;
+  .burger-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    line-height: 0;
 
-}
 
-.burger-btn-icon {
-  stroke: var(--second-black-color)
-}
+  }
+
+  .burger-btn-icon {
+    height: 28px;
+    width: 28px;
+    stroke: var(--second-black-color)
+  }
+
+
+
+
+
+  .page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    border: 1.50px solid var(--logo-text-color);
+    border-radius: 0 0 8px 8px;
+  }
+
+  .switcher {
+    height: 24px;
+    width: 40px;
+    padding: 0;
+    border: none;
+    background-color: teal;
+    line-height: 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+
+  .header-buttons-wrap {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+  }
+
+  .logo-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--logo-text-color);
+  }
+
+  .header-btn-shop-list {
+    padding: 8px 44px 8px 16px;
+    line-height: 0;
+    border-color: transparent;
+    text-transform: uppercase;
+    border-radius: 36px;
+    background-color: var(--accent-hover-dark-thema);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+
+  }
+
+  .item-shop {
+    position: relative;
+  }
+
+  .icon-shop-list {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    stroke: red;
+  }
+
+  .menu-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.04em;
+  }
+
+
+  .menu {
+    display: none;
+  }
+
+
+
+
+
+
+
+  @media screen and (min-width: 768px) {
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 224px;
+      border: 1px solid red;
+      text-transform: uppercase;
+
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+      column-gap: 40px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {}
