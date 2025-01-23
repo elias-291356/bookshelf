@@ -24,6 +24,7 @@
     height: 64px;
     border: 1.50px solid var(--logo-text-color);
     border-radius: 0 0 8px 8px;
+    background-color: var(--text-color-dark-thema);
   }
 
   .switcher {
