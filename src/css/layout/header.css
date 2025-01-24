@@ -63,12 +63,11 @@
   }
 
   .header-btn-shop-list {
-    padding: 8px 44px 8px 16px;
     line-height: 0;
     border-color: transparent;
     text-transform: uppercase;
     border-radius: 36px;
-    background-color: var(--accent-hover-dark-thema);
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -77,21 +76,50 @@
   }
 
   .item-shop {
-    position: relative;
+    display: flex;
+    align-items: self-end;
+    column-gap: 8px;
+    /* cursor: pointer;
+    background-color: var(--accent-hover-dark-thema);
+    border-radius: 36px;
+    padding: 7px 16px;
+    width: 157px;
+    height: 34px; */
   }
 
   .icon-shop-list {
-    position: absolute;
-    top: 5px;
-    right: 15px;
+
     stroke: var(--text-color-white-thema);
   }
 
   .menu-item {
+    cursor: pointer;
+    border-radius: 36px;
+    padding: 8px 16px;
+    width: 72px;
+
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
     letter-spacing: -0.04em;
+  }
+
+  .menu-item:hover {
+    background-color: var(--accent-hover-dark-thema);
+  }
+
+  .menu-item-shop:hover {
+    background-color: var(--accent-hover-dark-thema);
+  }
+
+
+
+  .menu-item-shop {
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+    column-gap: 4px;
+    border-radius: 36px;
+    padding: 7px 16px;
   }
 
 
@@ -112,6 +140,7 @@
       justify-content: space-between;
       width: 224px;
       text-transform: uppercase;
+
 
     }
 
@@ -150,6 +179,11 @@
       height: 23px;
       width: 23px;
     }
+
+    .menu-link {
+      color: var(--text-color-white-thema);
+    }
+
 
   }
 
