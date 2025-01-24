@@ -19,15 +19,22 @@
 }
 
 .mobile-menu {
-  height: 250px;
+  position: absolute;
+  bottom: 0px;
   width: 100%;
-  padding: 20px;
-  margin-top: 400px;
-  background-color: rgb(165, 42, 42);
-  /* transform: rotate(-20deg) */
+  height: 360px;
+  background-image: url(/src/images/books-group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+
 }
 
 .mobile-menu-logout-btn {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  z-index: 1;
   /* padding: 0; */
   padding: 14px 22px;
   border: 2px solid var(--text-color-white-thema);
@@ -55,3 +62,11 @@
   font-size: 14px;
   line-height: 1.14;
 }
+
+
+
+/* @media screen and (min-width: 376px) {
+  .mobile-menu-logout-btn {
+    display: none;
+  }
+} */

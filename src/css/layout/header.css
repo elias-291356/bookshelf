@@ -13,7 +13,10 @@
     stroke: var(--second-black-color)
   }
 
-
+  .mobile-menu-content {
+    position: relative;
+    margin-top: 64px;
+  }
 
 
 
