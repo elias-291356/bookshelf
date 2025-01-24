@@ -7,6 +7,11 @@
 
   }
 
+  .user-top {
+    display: none;
+  }
+
+
   .burger-btn-icon {
     height: 28px;
     width: 28px;
@@ -77,9 +82,9 @@
 
   .icon-shop-list {
     position: absolute;
-    top: 3px;
-    right: 10px;
-    stroke: red;
+    top: 5px;
+    right: 15px;
+    stroke: var(--text-color-white-thema);
   }
 
   .menu-item {
@@ -106,7 +111,6 @@
       align-items: center;
       justify-content: space-between;
       width: 224px;
-      border: 1px solid red;
       text-transform: uppercase;
 
     }
@@ -116,6 +120,41 @@
       align-items: center;
       column-gap: 40px;
     }
+
+    .burger-btn {
+      display: none;
+    }
+
+    .user-top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      background-color: var(--accent-white-thema);
+      border-radius: 36px;
+      width: 184px;
+      height: 45px;
+    }
+
+    .user-name {
+      margin-left: 9px;
+      margin-right: 4px;
+      font-weight: 700;
+      font-size: 22px;
+      letter-spacing: -0.02em;
+      color: var(--text-color-dark-thema);
+    }
+
+    .icon-arrow-down {
+      fill: var(--text-color-dark-thema);
+      height: 23px;
+      width: 23px;
+    }
+
   }
 
-  @media screen and (min-width: 1440px) {}
+  @media screen and (min-width: 1440px) {
+    .navigation {
+      column-gap: 76px;
+    }
+  }
