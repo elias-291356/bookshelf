@@ -1,4 +1,6 @@
 .mobile-menu-backdrop {
+  display: flex;
+  justify-content: center;
   position: fixed;
   z-index: -1;
   top: 0;
@@ -21,7 +23,7 @@
 .mobile-menu {
   position: absolute;
   bottom: 0px;
-  width: 100%;
+  width: 375px;
   height: 360px;
   background-image: url(/src/images/books-group.png);
   background-repeat: no-repeat;
@@ -64,6 +66,71 @@
 }
 
 
+.user-icon-and-name {
+  display: flex;
+  align-items: center;
+  column-gap: 9px;
+  border: 2px solid yellow;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  color: var(--text-color-dark-thema);
+}
+
+.user-icon {
+  height: 37px;
+  width: 37px;
+}
+
+.backdrop-nav {
+  width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 127px;
+}
+
+.backdrop-home-link {
+  border-radius: 36px;
+  padding: 8px 16px;
+  width: 72px;
+  height: 34px;
+  background-color: var(--accent-hover-dark-thema);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
+.link-home {
+  color: var(--text-color-white-thema);
+
+}
+
+.list-backdrop-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.link-shop-list {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--text-color-dark-thema);
+}
+
+.icon-shop {
+  fill: var(--text-color-dark-thema);
+}
+
+.item-shop-list {
+  display: flex;
+  align-items: end;
+  column-gap: 4px;
+}
 
 /* @media screen and (min-width: 376px) {
   .mobile-menu-logout-btn {
