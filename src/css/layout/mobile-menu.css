@@ -37,7 +37,6 @@
   left: 20px;
   bottom: 20px;
   z-index: 1;
-  /* padding: 0; */
   padding: 14px 22px;
   border: 2px solid var(--text-color-white-thema);
   border-radius: 18px;
@@ -70,8 +69,6 @@
   display: flex;
   align-items: center;
   column-gap: 9px;
-  border: 2px solid yellow;
-  margin-top: 20px;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: -0.02em;
@@ -84,11 +81,18 @@
 }
 
 .backdrop-nav {
-  width: 120px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 127px;
+  align-self: center;
 }
+
+.wrap-backdrop-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 210px;
+}
+
+
 
 .backdrop-home-link {
   border-radius: 36px;
@@ -131,6 +135,8 @@
   align-items: end;
   column-gap: 4px;
 }
+
+
 
 /* @media screen and (min-width: 376px) {
   .mobile-menu-logout-btn {
