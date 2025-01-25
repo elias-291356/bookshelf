@@ -109,9 +109,54 @@
 
 
 @media screen and (min-width:768px) {
+  .books-card-list {
+    padding: 24px;
+    height: 213px;
+    max-width: 704px;
+  }
+
+  .card-content {
+    max-width: 704px;
+  }
+
+  .text-card-content {
+    max-width: 704px;
+
+  }
+
+  .img-card-book {
+    width: 116px;
+    height: 165px;
+  }
+
+  .auchtor-book {
+    margin-top: auto;
+  }
 
 
   .title {
     font-size: 48px;
+  }
+
+  .text-card-content {
+    -webkit-line-clamp: 4;
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+  .books-card-list {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 996px;
+  }
+
+  .card-content {
+    max-width: 996px;
+  }
+
+  .text-card-content {
+    max-width: 996px;
+
   }
 }
