@@ -1,0 +1,117 @@
+.full-shop-list {
+  min-height: 750px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: var(--background-light-thema);
+}
+
+.icon-book-card {
+  width: 16px;
+  height: 16px;
+  fill: var(--svg-in-card);
+}
+
+.shop-item {
+  display: flex;
+  column-gap: 14px;
+}
+
+
+.books-card-list {
+  border: 2px solid var(--card-border-color);
+  border-radius: 16px;
+  padding: 14px;
+  width: 335px;
+}
+
+.img-card-book {
+  border-radius: 8px;
+  width: 100px;
+  height: 142px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.titles-wrap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.title-card-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--text-color-white-thema);
+}
+
+
+.subtitle-card-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--text-color-second);
+}
+
+.text-card-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 190px;
+
+}
+
+.auchtor-book {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-seller {
+  display: flex;
+  align-items: baseline;
+  column-gap: 8px;
+  width: 56px;
+  height: 11px;
+  color: red;
+}
+
+.wrap-seller-icon {
+  width: 30px;
+}
+
+.auchtor-name {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  color: var(--text-color-second);
+}
+
+.title-wrap {
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+
+  .title {
+    font-size: 48px;
+  }
+}
