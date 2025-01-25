@@ -21,7 +21,7 @@
   border: 2px solid var(--card-border-color);
   border-radius: 16px;
   padding: 14px;
-  width: 335px;
+  max-width: 335px;
 }
 
 .img-card-book {
@@ -65,7 +65,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  width: 190px;
+  max-width: 190px;
 
 }
 
