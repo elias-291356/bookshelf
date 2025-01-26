@@ -1,0 +1,133 @@
+.add-book-img {
+  width: 287px;
+  height: 458px;
+}
+
+.btn-add-to-basket {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--text-color-white-thema);
+  background-color: transparent;
+  border: 2px solid var(--accent-white-thema);
+  border-radius: 40px;
+  padding: 14px 28px;
+  width: 212px;
+  height: 46px;
+}
+
+.add-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid var(--text-color-white-thema);
+  border-radius: 18px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  row-gap: 14px;
+
+}
+
+.section-add-card {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.descr-book {
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.book-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  color: var(--text-color-white-thema);
+}
+
+.book-author {
+  margin-top: 4px;
+  margin-bottom: 18px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  color: var(--text-color-second);
+}
+
+.book-descr-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.04em;
+  color: var(--text-color-white-thema);
+  margin-bottom: 14px;
+}
+
+.book-seller-add-card {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 20px;
+  margin-bottom: 44px;
+}
+
+.wrap-seller-icon-add-card {
+  width: 62px;
+  height: 19px;
+}
+
+.btn-add-to-basket {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-close-modal-add {
+  display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .add-card {
+    position: absolute;
+    width: 579px;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .add-book-img {
+    width: 192px;
+    height: 281px;
+  }
+
+  .wrap-add-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .descr-book {
+    height: 281px;
+    justify-content: space-between;
+  }
+
+  .icon-close-modal-add {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 14px;
+    height: 14px;
+    fill: var(--text-color-white-thema);
+  }
+}
