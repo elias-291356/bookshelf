@@ -197,6 +197,12 @@
   .text-card-content {
     -webkit-line-clamp: 4;
   }
+
+  .pagination-list {
+    justify-content: center;
+    column-gap: 24px;
+    margin-top: 40px;
+  }
 }
 
 
