@@ -1,9 +1,9 @@
 @import 'modern-normalize/modern-normalize.css';
 
-body {
+/* body {
   font-family: "DM Sans", sans-serif;
 
-}
+} */
 
 button {
   cursor: pointer;
@@ -39,4 +39,8 @@ img {
   display: block;
   /* height: auto;
   width: 100%; */
+}
+
+a {
+  line-height: 0;
 }
