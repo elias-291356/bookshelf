@@ -15,8 +15,8 @@
 <symbol id="icon-dots" viewBox="0 0 104 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M17.44 24.96c-3.2 0-5.867-1.013-8-3.040-2.027-2.133-3.040-4.64-3.040-7.52 0-2.987 1.013-5.493 3.040-7.52 2.133-2.133 4.8-3.2 8-3.2s5.813 1.067 7.84 3.2c2.027 2.027 3.040 4.533 3.040 7.52 0 2.88-1.013 5.387-3.040 7.52-2.027 2.027-4.64 3.040-7.84 3.040zM52.128 24.96c-3.2 0-5.867-1.013-8-3.040-2.027-2.133-3.040-4.64-3.040-7.52 0-2.987 1.013-5.493 3.040-7.52 2.133-2.133 4.8-3.2 8-3.2s5.813 1.067 7.84 3.2c2.027 2.027 3.040 4.533 3.040 7.52 0 2.88-1.013 5.387-3.040 7.52-2.027 2.027-4.64 3.040-7.84 3.040zM86.815 24.96c-3.2 0-5.867-1.013-8-3.040-2.027-2.133-3.040-4.64-3.040-7.52 0-2.987 1.013-5.493 3.040-7.52 2.133-2.133 4.8-3.2 8-3.2s5.813 1.067 7.84 3.2c2.026 2.027 3.040 4.533 3.040 7.52 0 2.88-1.014 5.387-3.040 7.52-2.027 2.027-4.64 3.040-7.84 3.040z"></path>
 </symbol>
-<symbol id="icon-icon-arr" viewBox="0 0 43 32">
-<path fill="none" stroke="#eac645" style="stroke: var(--color2, #eac645)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M3.555 16h35.555M39.11 16l-13.333-13.333M39.11 16l-13.333 13.333"></path>
+<symbol id="icon-Icon-arr" viewBox="0 0 43 32">
+<path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M3.555 16h35.555M39.11 16l-13.333-13.333M39.11 16l-13.333 13.333"></path>
 </symbol>
 <symbol id="icon-logo" viewBox="0 0 32 32">
 <path fill="#f6f6f6" style="fill: var(--color3, #f6f6f6)" d="M0 0l16.343 16.171 15.657 15.829v-32h-32z"></path>
@@ -30,10 +30,6 @@
 </symbol>
 <symbol id="icon-x-close" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M24 8l-16 16M8 8l16 16"></path>
-</symbol>
-<symbol id="icon-book" viewBox="0 0 32 32">
-<path d="M28 4v26h-21c-1.657 0-3-1.343-3-3s1.343-3 3-3h19v-24h-20c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h24v-28h-2z"></path>
-<path d="M7.002 26v0c-0.001 0-0.001 0-0.002 0-0.552 0-1 0.448-1 1s0.448 1 1 1c0.001 0 0.001-0 0.002-0v0h18.997v-2h-18.997z"></path>
 </symbol>
 </defs>
 </svg>
