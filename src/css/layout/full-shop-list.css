@@ -126,11 +126,43 @@
 }
 
 .pag-left-arrow {
-  fill: red;
-  stroke: red;
+  fill: var(--svg-in-card);
+  stroke: var(--svg-in-card);
+
   width: 22px;
   height: 22px;
 }
+
+.pag-right-arrow {
+  fill: var(--text-color-white-thema);
+  stroke: var(--text-color-white-thema);
+  width: 22px;
+  height: 22px;
+}
+
+.first-left-pagin {
+  background-color: var(--text-color-white-thema);
+}
+
+.link-pagin-first-num {
+  color: var(--text-color-dark-thema);
+
+
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link-middle-pagin {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: var(--text-color-white-thema);
+  color: var(--text-color-white-thema);
+}
+
+.end-pagin {
+  background-color: var(--accent-hover-dark-thema);
+}
+
 
 @media screen and (min-width:768px) {
   .books-card-list {
