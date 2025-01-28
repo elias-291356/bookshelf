@@ -1,0 +1,54 @@
+.mobile-sign-up {
+
+  min-height: 816px;
+
+  transition: opacity 500ms linear, visibility 500ms linear;
+  background: radial-gradient(189.32% 190.93% at 59.76% -23.42%, #4f2ee8 18.03%, #fff 100%);
+}
+
+.section-signup {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.signup-btn {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.bcg-signup-mob-page {
+  position: absolute;
+  top: 457px;
+  width: 375px;
+  height: 360px;
+  background-image: url(/src/images/books-group.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.signup-btn {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  z-index: 1;
+  padding: 14px 22px;
+  border: 2px solid var(--text-color-white-thema);
+  border-radius: 18px;
+  background-color: var(--text-color-dark-thema);
+  line-height: 0;
+  width: 124px;
+  height: 48px;
+}
+
+.icon-signup {
+  width: 20px;
+  height: 20px;
+}
+
+.wrap-desr-signup-btn {
+  display: flex;
+  align-items: center;
+}
